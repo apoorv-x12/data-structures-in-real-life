@@ -3,7 +3,19 @@
   dom_basic.js file contains 11. event listeners.mp4 and box.js represents a bit 10.game loop
   
   ----------for more detailed notes:
-  
+
+---notes on 8. Dom Manipulation :
+--document is object have attributes like document.body for <body></body> tag of html, document.head for head tag
+
+--let div=document.getElementsByTagName("div");
+--rhs of above return array of all div objects from html top to bottom to div object
+--also we use let a=document.getElementById("idname");-->to select 1 element by idname to a object
+--we can access then properties like a.innerText="xxx" like accessing JavaScript objects's properties
+and change innerText of tag associated to object a
+-- we will create a <canvas id="idname"></canvas> in html and give some style using css 
+-- then get canvas tag to js object using DOM and manipulate it
+
+
 ---notes on 9. html5 canvas :
 
 CB DATA STRUCTURES REAL LIFE 1. programming in JavaScript - 9.html5 canvas
